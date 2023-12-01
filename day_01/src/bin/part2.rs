@@ -59,12 +59,10 @@ fn main() {
         else if aux_vector.len() > 1  {
             output.push(aux_vector[0]*10);
             output.push(aux_vector[aux_vector.len()-1]);
-            println!("{} => {:?}", lines, (aux_vector[0]*10 + aux_vector[aux_vector.len()-1]));
         } 
         else {
             output.push(aux_vector[0]*10);
             output.push(aux_vector[0]);
-            println!("{} => {:?}", lines, (aux_vector[0]*10 + aux_vector[0]));
         }
     }
 
